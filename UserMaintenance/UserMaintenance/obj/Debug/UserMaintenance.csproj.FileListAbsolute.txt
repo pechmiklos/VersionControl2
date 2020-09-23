@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\bin\Debug\UserMaintenance.exe.config
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\bin\Debug\UserMaintenance.exe
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\bin\Debug\UserMaintenance.pdb
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.csprojAssemblyReference.cache
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.Form1.resources
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.Properties.Resources.resources
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.Resource1.resources
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.csproj.GenerateResource.cache
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.exe
+C:\Users\User\source\repos\VersionControl2\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.pdb
