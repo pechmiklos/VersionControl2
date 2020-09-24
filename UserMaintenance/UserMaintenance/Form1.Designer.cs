@@ -59,9 +59,8 @@
             this.lblFirstName.AutoSize = true;
             this.lblFirstName.Location = new System.Drawing.Point(357, 115);
             this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(51, 20);
+            this.lblFirstName.Size = new System.Drawing.Size(0, 20);
             this.lblFirstName.TabIndex = 2;
-            this.lblFirstName.Text = "label2";
             // 
             // txtLastName
             // 
