@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\gyak4\gyak4\bin\Debug\gyak4.exe.config
+C:\Users\User\source\repos\gyak4\gyak4\bin\Debug\gyak4.exe
+C:\Users\User\source\repos\gyak4\gyak4\bin\Debug\gyak4.pdb
+C:\Users\User\source\repos\gyak4\gyak4\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\gyak4\gyak4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\gyak4\gyak4\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\gyak4\gyak4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\gyak4\gyak4\obj\Debug\gyak4.csprojAssemblyReference.cache
+C:\Users\User\source\repos\gyak4\gyak4\obj\Debug\gyak4.Properties.Resources.resources
+C:\Users\User\source\repos\gyak4\gyak4\obj\Debug\gyak4.csproj.GenerateResource.cache
+C:\Users\User\source\repos\gyak4\gyak4\obj\Debug\gyak4.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\gyak4\gyak4\obj\Debug\gyak4.csproj.CopyComplete
+C:\Users\User\source\repos\gyak4\gyak4\obj\Debug\gyak4.exe
+C:\Users\User\source\repos\gyak4\gyak4\obj\Debug\gyak4.pdb
+C:\Users\User\source\repos\gyak4\gyak4\obj\Debug\gyak4.csproj.ResolveComReference.cache
