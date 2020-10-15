@@ -24,12 +24,28 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-            
+            GetCurrencies();
             RefreshData();
             comboBox1.DataSource = Currencies;
             
         }
+        private void GetCurrencies()
+        {
+            var mnbService = new MNBArfolyamServiceSoapClient();
+            var request = new GetCurrenciesRequestBody();
+            var response = mnbService.GetCurrencies(request);
+            var result = response.GetCurrenciesResult;
+            richTextBox1.Text = result;
+            var xml = new XmlDocument();
+            xml.LoadXml(result);
+            foreach (XmlElement element in xml.DocumentElement.FirstChild)
+            {
+                string currency = element.InnerText;
+                Currencies.Add(currency);
+            }
 
+
+        } 
        
 
         private string GetExchangeRates()
@@ -56,6 +72,8 @@ namespace WindowsFormsApp1
                 Rates.Add(rate);
                 rate.Date = DateTime.Parse(element.GetAttribute("date"));
                 var childElement = (XmlElement)element.ChildNodes[0];
+                if (childElement == null)
+                    continue;
                 rate.Currency = childElement.GetAttribute("curr");
                 var unit = decimal.Parse(childElement.GetAttribute("unit"));
                 var value = decimal.Parse(childElement.InnerText);
