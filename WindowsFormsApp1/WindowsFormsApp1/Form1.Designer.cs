@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.chartRateData = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -48,22 +48,22 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(312, 349);
+            this.dataGridView1.Size = new System.Drawing.Size(526, 349);
             this.dataGridView1.TabIndex = 0;
             // 
             // chartRateData
             // 
-            chartArea7.Name = "ChartArea1";
-            this.chartRateData.ChartAreas.Add(chartArea7);
-            legend7.Name = "Legend1";
-            this.chartRateData.Legends.Add(legend7);
-            this.chartRateData.Location = new System.Drawing.Point(425, 75);
+            chartArea2.Name = "ChartArea1";
+            this.chartRateData.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartRateData.Legends.Add(legend2);
+            this.chartRateData.Location = new System.Drawing.Point(582, 101);
             this.chartRateData.Name = "chartRateData";
-            series7.ChartArea = "ChartArea1";
-            series7.Legend = "Legend1";
-            series7.Name = "Series1";
-            this.chartRateData.Series.Add(series7);
-            this.chartRateData.Size = new System.Drawing.Size(300, 300);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartRateData.Series.Add(series2);
+            this.chartRateData.Size = new System.Drawing.Size(466, 300);
             this.chartRateData.TabIndex = 1;
             this.chartRateData.Text = "chart1";
             // 
@@ -97,9 +97,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(965, 125);
+            this.richTextBox1.Location = new System.Drawing.Point(1107, 101);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(100, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(376, 315);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Text = "";
             // 
@@ -107,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1246, 450);
+            this.ClientSize = new System.Drawing.Size(1230, 492);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dateTimePicker2);
