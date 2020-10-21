@@ -153,12 +153,13 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            richTextBox1.Clear();
-            fiuk.Clear();
-            lanyok.Clear();
-            Simulation();
-            DisplayResults();
-            
+           
+              richTextBox1.Clear();
+              fiuk.Clear();
+              lanyok.Clear();
+              Simulation();
+              DisplayResults();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -172,11 +173,12 @@ namespace WindowsFormsApp2
 
         private void DisplayResults()
         {
+            richTextBox1.Text = "";
             int j = 0;
             for (int year = 2005;  year <= numericUpDown1.Value; year++)
             {
                 
-                richTextBox1.Text = "\nSzimulációs év: " + year.ToString() + "\n\tFiúk: " +  fiuk[j] + "\n\tLányok: " + lanyok[j];
+                richTextBox1.Text +=  "\nSzimulációs év: " + year.ToString() + "\n\tFiúk: " +  fiuk[j] + "\n\tLányok: " + lanyok[j];
                 j++;
             }
         } 
