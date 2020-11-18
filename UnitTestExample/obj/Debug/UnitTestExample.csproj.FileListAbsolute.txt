@@ -17,3 +17,13 @@ C:\Users\User\Desktop\UnitTestExample\obj\Debug\UnitTestExample.csproj.GenerateR
 C:\Users\User\Desktop\UnitTestExample\obj\Debug\UnitTestExample.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\UnitTestExample\obj\Debug\UnitTestExample.exe
 C:\Users\User\Desktop\UnitTestExample\obj\Debug\UnitTestExample.pdb
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\bin\Debug\UnitTestExample.exe.config
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\bin\Debug\UnitTestExample.exe
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\bin\Debug\UnitTestExample.pdb
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\obj\Debug\UnitTestExample.csprojAssemblyReference.cache
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\obj\Debug\UnitTestExample.Form1.resources
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\obj\Debug\UnitTestExample.Properties.Resources.resources
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\obj\Debug\UnitTestExample.csproj.GenerateResource.cache
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\obj\Debug\UnitTestExample.csproj.CoreCompileInputs.cache
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\obj\Debug\UnitTestExample.exe
+C:\Users\User\source\pechmiklos\VersionControl2\UnitTestExample\obj\Debug\UnitTestExample.pdb
