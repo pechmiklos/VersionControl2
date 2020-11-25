@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyak10\\gyak10\\gyak10.vbproj": {}
+    "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyakorl10\\gyakorl10\\gyakorl10.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyak10\\gyak10\\gyak10.vbproj": {
+    "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyakorl10\\gyakorl10\\gyakorl10.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyak10\\gyak10\\gyak10.vbproj",
-        "projectName": "gyak10",
-        "projectPath": "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyak10\\gyak10\\gyak10.vbproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyakorl10\\gyakorl10\\gyakorl10.vbproj",
+        "projectName": "gyakorl10",
+        "projectPath": "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyakorl10\\gyakorl10\\gyakorl10.vbproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyak10\\gyak10\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\pechmiklos\\VersionControl2\\gyakorl10\\gyakorl10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
