@@ -32,22 +32,24 @@ namespace WindowsFormsApp1
             for (int i = 0; i < populationSize; i++)
             {
                 gc.AddPlayer(nbrOfSteps);
-                gc.Start();
+             
 
             }
-            label1.Text = string.Format("{0}. generáció", generation);
-           
-       
+            gc.Start();
+
+            
 
         }
         private void Gc_GameOver(object sender)
         {
             generation++;
             label1.Text = string.Format("{0}. generáció", generation);
+
             var playerList = from p in gc.GetCurrentPlayers()
                              orderby p.GetFitness() descending
                              select p;
             var topPerformers = playerList.Take(populationSize / 2).ToList();
+
             gc.ResetCurrentLevel();
             foreach (var p in topPerformers)
             {
@@ -73,6 +75,16 @@ namespace WindowsFormsApp1
                 gc.GameOver -= Gc_GameOver;
                 return;
             }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            gc.ResetCurrentLevel();
+            gc.AddPlayer(winnerBrain.Clone());
+            gc.AddPlayer();
+            ga.Focus();
+            gc.Start(true);
 
         }
     }
